@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="LoanAppSuite" verbose="1">
+    <test name="RegressionTest1">
+
+        <classes>
+
+            <class name="Customers">
+
+                <methods>
+
+                    <include name="AddCustomer1"/>
+
+                </methods>
+
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>
